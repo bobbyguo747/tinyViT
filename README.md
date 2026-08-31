@@ -2,6 +2,12 @@
 
 本项目使用 PyTorch 在公共数据集 Fashion-MNIST 上实现一个容易解释的 TinyViT，目标是清楚展示 Transformer 在图像分类中的数据流和核心机制，而不是堆砌功能或复现大型论文模型。
 
+## GitHub 仓库
+
+项目公开仓库：[https://github.com/bobbyguo747/tinyViT](https://github.com/bobbyguo747/tinyViT)
+
+仓库包含项目源码、实际训练权重、实验记录和结果图；`.venv/` 与可自动下载的 `data/` 不上传。
+
 ## 小数据过拟合诊断
 
 该诊断只使用训练集中的 256 个固定、分层样本，用来检查模型与训练链路能否主动记忆小数据。它不是正式实验，其准确率不能当作测试集结果。
