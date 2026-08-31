@@ -22,8 +22,6 @@ from utils import PROJECT_ROOT, load_config
 
 REQUIRED_FILES = (
     "README.md",
-    "CODE_WALKTHROUGH.md",
-    "INTERVIEW_QA.md",
     "EXPERIMENT_ANALYSIS.md",
     "requirements.txt",
     "config.yaml",
@@ -182,4 +180,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

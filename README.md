@@ -75,10 +75,7 @@ $env:PYTHONUTF8="1"
 
 ## 文档
 
-- [TRAINING_GUIDE.md](TRAINING_GUIDE.md)：环境、完整训练顺序、命令参数和重跑注意事项。
-- [CODE_WALKTHROUGH.md](CODE_WALKTHROUGH.md)：按模块解释代码和所有关键 shape。
 - [EXPERIMENT_ANALYSIS.md](EXPERIMENT_ANALYSIS.md)：真实指标、混淆矩阵、错误案例和实验局限。
-- [INTERVIEW_QA.md](INTERVIEW_QA.md)：Transformer 核心概念和项目答辩问题。
 
 ## 仓库内容
 
@@ -90,36 +87,7 @@ tinyViT/
 ├─ config.yaml          统一实验配置
 ├─ requirements.txt     Python 依赖
 ├─ README.md            项目概览
-├─ TRAINING_GUIDE.md     训练与复现指南
-├─ CODE_WALKTHROUGH.md   代码讲解
-├─ EXPERIMENT_ANALYSIS.md 实验分析
-└─ INTERVIEW_QA.md       答辩问答
+└─ EXPERIMENT_ANALYSIS.md 实验分析
 ```
 
 `.venv/` 和 `data/` 不提交：虚拟环境应由 `requirements.txt` 重建，Fashion-MNIST 会由代码自动下载。
-
-## 文档阅读顺序
-
-1. [TRAINING_GUIDE.md](TRAINING_GUIDE.md)：`.venv`、完整训练顺序、每条命令的参数含义、期望与实际结果、重跑注意事项。
-2. [CODE_WALKTHROUGH.md](CODE_WALKTHROUGH.md)：按文件和函数解释代码，重点展示 patch、CLS、Q/K/V、Encoder 和 shape 变化。
-3. [EXPERIMENT_ANALYSIS.md](EXPERIMENT_ANALYSIS.md)：三模型真实指标、训练曲线、混淆矩阵、错误样本、结论和局限。
-4. [INTERVIEW_QA.md](INTERVIEW_QA.md)：Transformer 概念、训练设计、结果解释和答辩问答。
-
-## 交付内容
-
-`transformer_submission.zip` 是去除本机环境和自动下载数据后的交付包，包含：
-
-```text
-src/                 全部 PyTorch 源码
-config.yaml          统一实验配置
-requirements.txt     可重建的依赖版本
-checkpoints/         四个实际训练得到的 best.pt
-outputs/             训练记录、测试预测、指标、图表和预测演示
-README.md            项目概览和核心命令
-TRAINING_GUIDE.md     训练流程与命令详解
-CODE_WALKTHROUGH.md   代码和 shape 讲解
-EXPERIMENT_ANALYSIS.md 实验结果分析
-INTERVIEW_QA.md       面试与答辩问答
-```
-
-交付包不包含 `.venv/`、`data/`、`__pycache__/` 和 `.pyc`。`.venv` 约 3.3 GB 且依赖本机路径，`data/` 可由代码自动下载，两者都不应作为源码提交。
