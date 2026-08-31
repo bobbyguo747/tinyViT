@@ -1,0 +1,11 @@
+{
+  "purpose": "formal training/validation summary; test set not evaluated",
+  "run_name": "tinyvit_no_pos_seed42",
+  "best_epoch": 16,
+  "best_validation_accuracy": 0.832,
+  "best_validation_macro_f1": 0.8308501773125005,
+  "epochs_completed": 20,
+  "elapsed_seconds": 103.42142339999918,
+  "best_checkpoint": "D:\\0BobbyGuo\\D转C\\transformer\\checkpoints\\tinyvit_no_pos_seed42\\best.pt",
+  "test_set_evaluated": false
+}

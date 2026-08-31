@@ -1,0 +1,8 @@
+{
+  "purpose": "small-data overfit diagnostic; not a formal experiment result",
+  "best_subset_accuracy": 0.9921875,
+  "epochs_completed": 71,
+  "elapsed_seconds": 3.9028510000025562,
+  "target_accuracy": 0.98,
+  "target_reached": true
+}

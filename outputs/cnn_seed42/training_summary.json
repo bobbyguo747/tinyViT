@@ -1,0 +1,11 @@
+{
+  "purpose": "formal training/validation summary; test set not evaluated",
+  "run_name": "cnn_seed42",
+  "best_epoch": 20,
+  "best_validation_accuracy": 0.9255,
+  "best_validation_macro_f1": 0.9248150958168125,
+  "epochs_completed": 20,
+  "elapsed_seconds": 101.4083443999989,
+  "best_checkpoint": "D:\\0BobbyGuo\\D转C\\transformer\\checkpoints\\cnn_seed42\\best.pt",
+  "test_set_evaluated": false
+}

@@ -1,0 +1,10 @@
+--extra-index-url https://download.pytorch.org/whl/cu130
+
+torch==2.12.1+cu130
+torchvision==0.27.1+cu130
+PyYAML==6.0.3
+matplotlib==3.11.1
+seaborn==0.13.2
+scikit-learn==1.9.0
+tqdm==4.70.0
+
